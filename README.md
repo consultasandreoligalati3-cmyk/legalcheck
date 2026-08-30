@@ -4,6 +4,8 @@ Herramienta web de orientación jurídica inicial. Guía a una persona con un pr
 
 **LegalCheck brinda orientación jurídica inicial y no reemplaza el asesoramiento de un profesional matriculado.**
 
+🔗 **Demo en vivo:** https://legalcheck-eta.vercel.app
+
 ## Qué problema resuelve
 
 Una persona que enfrenta un problema jurídico muchas veces no sabe con precisión qué tipo de problema tiene, qué información es relevante, qué documentación debería reunir, ni si su situación puede requerir atención prioritaria. Eso genera consultas desordenadas y pérdida de tiempo, tanto para la persona como para el profesional que la atiende. LegalCheck no reemplaza esa consulta: la prepara.
@@ -138,7 +140,7 @@ El botón "Siguiente"/"Finalizar" queda deshabilitado hasta responder la pregunt
 - **Decisiones tomadas:** todas las de esta sección de arquitectura y tecnología están documentadas, con motivo, en `registro-decisiones-LegalCheck.md` (fuera de este repositorio, en la documentación del proyecto).
 - **Funcionalidades implementadas:** todo lo descripto en "Alcance del MVP" está construido y en este repositorio.
 - **Pruebas efectivamente realizadas:** las descriptas en "Estrategia de pruebas", con resultado aprobado en cada corrida (detalle en la documentación de control de calidad del proyecto).
-- **Tareas que todavía requieren intervención manual:** crear un repositorio remoto en GitHub y hacer `git push` (este repositorio está inicializado localmente, con commits, pero sin remoto configurado); crear/conectar una cuenta de Vercel y desplegar (no hay URL pública todavía). Ninguna de las dos se afirma como realizada porque no lo están.
+- **Repositorio remoto y deploy:** completados el 30/08/2026. Código publicado en `https://github.com/consultasandreoligalati3-cmyk/legalcheck` (público) y desplegado en `https://legalcheck-eta.vercel.app` (importado directamente desde GitHub, sin configuración adicional). Detalle del proceso y de los problemas reales encontrados al hacerlo: "Etapa 10" en el registro de decisiones del proyecto.
 
 ## Scripts disponibles
 
